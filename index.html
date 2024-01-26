@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header"> Tic Tac Toe</div>
+        <div class="user">
+            <span class="user-turn">Turn</span>
+            <span class="user-name">User 1</span>
+            <div id="input-options">
+                Choose: 
+                <input type="radio" id="X" name="symbol" checked="true"/> X
+                <input type="radio" id="O" name="symbol" /> O
+            </div>
+            <button class="new-game">New Game</button>
+        </div>
+
+        <div class="game-container">
+            <table>
+                <tr>
+                    <td id="0"></td>
+                    <td id="1"></td>
+                    <td id="2"></td>
+                </tr>
+                <tr>
+                    <td id="3"></td>
+                    <td id="4"></td>
+                    <td id="5"></td>
+                </tr>
+                <tr>
+                    <td id="6"></td>
+                    <td id="7"></td>
+                    <td id="8"></td>
+                </tr>
+            </table>
+
+        </div>
+        <button class="reset-game">Reset</button>
+
+    </div>
+    <script src="./index.js"/>
+</body>
+</html>

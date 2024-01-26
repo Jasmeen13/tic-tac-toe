@@ -1,0 +1,73 @@
+body{
+    margin: 0;;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.header{
+    font: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+.game-container{
+    background-color:rgb(12, 12, 12);
+    padding : 100px;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 10px;
+}
+span{
+    text-align: center;
+}
+td{
+    width: 55px;
+    height: 55px;
+    font-size: larger;
+    background-color: rgb(77, 76, 76);
+    text-align: center;
+    border-radius: 5px;;
+    gap: 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.X{
+    color: green;
+}
+.O{
+    color: blue;
+}
+.user{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-turn{
+    font-size: large;
+    font-weight: 600;
+    padding: 10px;
+}
+.user-name{
+    padding: 10px;
+    font-size: medium;
+    font-weight: 600;
+}
+.new-game{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+.reset-game{
+    background-color: black;
+    color: white;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
